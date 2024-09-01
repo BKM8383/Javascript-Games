@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            background-color: orange;
+        }
+
+        img {
+            background: none;
+            border: none;
+        }
+
+        body {
+            text-align: center;
+            color: black;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            table-layout: fixed;
+            width: 35%;
+            margin-bottom: 10%;
+        }
+
+        table tr {
+            height: 200px;
+        }
+
+        .cell {
+            border: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <marquee>
+        <h1>Tic Tac Toe</h1>
+    </marquee>
+    <table rules="all">
+        <tr>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+            <td class="cell" id="3"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+            <td class="cell" id="6"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+            <td class="cell" id="9"></td>
+        </tr>
+    </table>
+
+    <script src="ttt.js"></script>
+</body>
+
+</html>

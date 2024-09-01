@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+h1{
+    color: yellow;
+    font-size: 90px;
+    margin-top: 200px;
+}
+
+h1:hover{
+    font-size: 150px;
+    margin-top: 150px;
+    transition: 0.5s;
+    color: red;
+}

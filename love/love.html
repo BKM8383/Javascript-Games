@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            display: flex;
+
+            flex-direction: column;
+            text-align: center;
+            background-image: url(https://img.freepik.com/free-photo/two-red-hearts-against-red-background_1150-6930.jpg?w=1380&t=st=1706848042~exp=1706848642~hmac=9f03f02fd1783b2879fb4e3e1781afdd53abadf6f722ee1605c871d5b7bab854);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1{
+            margin-bottom: 2%;
+            color: rgb(255, 255, 255);
+            font-size: 60px;    
+        }
+        input{
+            border-radius: 10px;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2%;
+            height: 40px;
+        }
+
+        h2{
+            margin-top: 5%;
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+        }
+        
+        button{
+            border-radius: 10px;
+            width: 5%;
+            height: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Love Calculator</h1>
+    <input placeholder="Your name" id="mname">
+    <input placeholder="Partner name" id="fname">
+    <button>Match</button>
+    <h2 id="percentage"></h2>
+    <h2 id="comment"></h2>
+    <script src="love.js"></script>
+</body>
+</html>

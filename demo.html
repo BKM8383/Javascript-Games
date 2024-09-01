@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dynamic Buttons</title>
+</head>
+<body>
+
+<button id="myButton" onclick="reverseAndAddButtons()">Click me</button>
+
+<script>
+    function reverseAndAddButtons() {
+        var button = document.getElementById('myButton');
+        // button.innerHTML = button.innerHTML.split('').reverse().join('');
+
+        // Add four more buttons to the page
+        for (var i = 0; i < 4; i++) {
+            var newButton = document.createElement('button');
+            newButton.innerHTML = 'Button ' + (i + 1);
+            document.body.appendChild(newButton);
+        }
+    }
+</script>
+
+</body>
+</html>
